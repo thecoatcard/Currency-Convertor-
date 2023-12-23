@@ -1,0 +1,92 @@
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: linear-gradient(1760deg, #d87e88,white, #6c6ac4);
+    }
+    
+    .header {
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: rgba(255, 255, 255, 0.9);      
+      color: rgb(0, 0, 0);
+      padding: 10px 20px;
+      <!-- width: 40%; -->
+      text-align: center;
+      border-radius: 8PX;
+      z-index: 1;
+    }
+    
+    .container {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      margin-top: 20px;
+      max-width: 400px;
+      text-align: center;
+      background-image: linear-gradient(270deg, #d87e88, #6c6ac4);
+    }
+    
+    h1 {
+      margin-bottom: 20px;
+      color: #002750;
+    }
+    
+    .input-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap; /* Allow elements to wrap */
+      margin-top: 20px;
+    }
+    
+    input[type="number"],
+    select {
+      padding: 10px;
+      margin: 5px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+      flex: 1; /* Let inputs take available space */
+      min-width: 120px; /* Set a minimum width */
+    }
+    
+    span {
+      font-weight: bold;
+      font-size: 20px;
+      margin: 0 10px;
+    }
+    
+    button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      flex: 1;
+      width:25%;
+      margin-top: 8px; /* Add some space between inputs and button */
+    }
+    
+    button:hover {
+      background-color: #0056b3;
+    }
+    
+    #fromFlag,
+    #toFlag {
+      width: 20px;
+      height: 15px;
+      display: inline-block;
+      margin: 0 5px;
+      border-radius: 3px;
+      background-image: linear-gradient(135deg, #b22234 0%, #b22234 30%, #fff 30%, #fff 70%, #3c3b6e 70%, #3c3b6e 100%);
+    }
